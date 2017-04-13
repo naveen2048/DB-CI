@@ -4,6 +4,7 @@
     [Currency] CHAR (3)       NULL,
     [Zip] NCHAR(15) NULL, 
     [Test] NCHAR(10) NULL, 
+    [Col1] NCHAR(10) NULL, 
     CONSTRAINT [PK_Country] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
